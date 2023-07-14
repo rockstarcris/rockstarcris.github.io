@@ -3,18 +3,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="./favicon.png" />
-		<link
-			rel="preload"
-			as="style"
-			onload="this.rel = 'stylesheet'"
-			href="./styles.css"
-		/>
-		<link
-			rel="preload"
-			as="style"
-			onload="this.rel = 'stylesheet'"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-		/>
+		<link rel="prefetch" as="style" href="./styles.css" />
+		<link rel="stylesheet" href="./styles.css" />
+
 		<meta name="viewport" content="width=device-width" />
 		<title>Sobre la App</title><!-- HEAD_svelte-1u19ql3_START --><!-- HEAD_svelte-1u19ql3_END -->
 	</head>
@@ -31,5 +22,14 @@
 			crossorigin="anonymous"
 			src="https://connect.facebook.net/en_US/sdk.js"
 		></script>
+		<link
+			rel="dns-prefetch"
+			as="style"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
 	</body>
 </html>
