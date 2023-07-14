@@ -3,29 +3,39 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="./favicon.png" />
-   		<link rel="stylesheet" href="./styles.css"/>
-   		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+		<link
+			rel="preload"
+			as="style"
+			onload="this.rel = 'stylesheet'"
+			href="./styles.css"
+		/>
+		<link
+			rel="preload"
+			as="style"
+			onload="this.rel = 'stylesheet'"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.7e26ad36.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.8a43f14f.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.edf2e685.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.6ca0b673.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.44e8e7b0.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.d2456d52.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.1e65df04.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.82434915.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.e63ddcb6.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.55a3d819.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.b0c23298.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/each.e59479a4.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/ingreso.component.256fe385.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/mantener-con-vida.function.03757073.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.esm2017.4bc87ef9.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.esm.a0d8edf4.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/estilos.constants.644c196f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/cabecera-de-perfil.component.64e0b48c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/cabecera-de-perfil.component.48db32df.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/cargando.component.96345079.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/img.component.46586a66.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.9911c329.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/11.cc47f537.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/navigation.a6965a9e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.eb5b2fba.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/11.3d9f75ce.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/navigation.5e01c013.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/get-db.component.19961f46.js"><title>Perfil </title><!-- HEAD_svelte-yv0l1o_START --><!-- HEAD_svelte-yv0l1o_END -->
 	</head>
 	<body data-sveltekit-preload-data="hover">
@@ -33,7 +43,7 @@
 			
 			<script>
 				{
-					__sveltekit_11ni6f2 = {
+					__sveltekit_oeqwho = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -43,8 +53,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.7e26ad36.js"),
-						import("./_app/immutable/entry/app.1e65df04.js")
+						import("./_app/immutable/entry/start.8a43f14f.js"),
+						import("./_app/immutable/entry/app.82434915.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 11],
@@ -56,6 +66,11 @@
 				}
 			</script>
 		</div>
-		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+		<script
+			async
+			defer
+			crossorigin="anonymous"
+			src="https://connect.facebook.net/en_US/sdk.js"
+		></script>
 	</body>
 </html>
