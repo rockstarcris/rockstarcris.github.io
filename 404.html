@@ -1,26 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="prefetch" as="icon" href="/images/icono-pr.svg" />
-		<link rel="icon" href="/images/icono-pr.svg" />
-		<link rel="preload" as="style" href="/critical.css" />
-		<link rel="stylesheet" href="/critical.css" />
+		<link rel="prefetch" as="icon" href="/favicon.png" />
+		<link rel="icon" href="/favicon.png" />
 		<link rel="prefetch" as="style" href="/styles.css" />
+		<link
+			rel="dns-prefetch"
+			as="style"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="modulepreload" href="/_app/immutable/entry/start.7e39ea6a.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.da1e7549.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.dc961092.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/control.f5b05b5f.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.91940b41.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/index.d87ab09a.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.922ad60f.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.4191ff18.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.73271345.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.da14ca20.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.f40da0b2.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.ac363c80.js">
 	</head>
-	<body data-sveltekit-preload-data="hover">
+	<body data-sveltekit-preload-data="hover" class="dark:!bg-black-custom">
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_1sznk2l = {
+					__sveltekit_1l9wtdl = {
 						base: "",
 						env: {}
 					};
@@ -28,14 +31,25 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/_app/immutable/entry/start.7e39ea6a.js"),
-						import("/_app/immutable/entry/app.91940b41.js")
+						import("/_app/immutable/entry/start.922ad60f.js"),
+						import("/_app/immutable/entry/app.f40da0b2.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
 				}
 			</script>
 		</div>
+		<!-- <script
+			async
+			defer
+			crossorigin="anonymous"
+			src="https://connect.facebook.net/en_US/sdk.js"
+		></script> -->
+
 		<link rel="stylesheet" href="/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
 	</body>
 </html>

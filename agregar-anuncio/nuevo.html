@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="prefetch" as="icon" href="../favicon.png" />
+		<link rel="icon" href="../favicon.png" />
+		<link rel="prefetch" as="style" href="../styles.css" />
+		<link
+			rel="dns-prefetch"
+			as="style"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="../_app/immutable/assets/state.70f577cb.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.922ad60f.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.4191ff18.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.73271345.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.da14ca20.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.f40da0b2.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.ac363c80.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.756f2749.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/state.5aff7cf1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.esm.56b6a403.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/ingreso.component.5a84a472.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/mantener-con-vida.function.11bd01ad.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/img.component.8ba1356c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/cabecera-de-perfil.component.b0835f57.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.a7e59ae7.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/4.18b459c5.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Toaster.5e61ffa4.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/anuncio.store.a1a55409.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/get-db.component.31fa9698.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/icon.component.b953ca3f.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/create-form.cc153e22.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/v4.a960c1f4.js"><title>Preparar Anuncio</title><!-- HEAD_svelte-vf30km_START --><!-- HEAD_svelte-vf30km_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover" class="dark:!bg-black-custom">
+		<div style="display: contents">  <div class="layout"><div class="side-bar"><div class="close-side-bar" data-svelte-h="svelte-uinjsv"><i class="fas fa-times"></i></div> <div class="profile"><div class="flex justify-center"><div class="bg-light-color animate-pulse"></div></div>  <h3 class="bg-light-color animate-pulse mx-auto w-80"><!-- HTML_TAG_START -->&nbsp;<!-- HTML_TAG_END --></h3>  <span class="inline-block bg-light-color animate-pulse w-72"><!-- HTML_TAG_START -->&nbsp;<!-- HTML_TAG_END --></span> <a href="/perfil" class="btn pointer-events-none cursor-not-allowed opacity-50">Ver Perfil</a> <button class="text-main-color text-2xl mt-4 hover:text-light-color" disabled>Salir</button></div> <nav class="navbar"><a href="/"><i class="fas fa-home"></i><span>Inicio</span></a><a href="/promociones"><i class="fas fa-bullhorn"></i><span>Promociones</span></a><a href="/anunciantes"><i class="far fa-handshake"></i><span>Anunciantes</span></a><a href="/about"><i class="fas fa-solid fa-gear"></i><span>Sobre la App</span></a><a href="/contacto"><i class="fas fa-headset"></i><span>Escríbenos</span></a></nav></div>   <section class="anunciantes"><h1 class="heading" data-svelte-h="svelte-1f5alz7">Preparar Anuncio</h1> <section class="form-container"><form><p data-svelte-h="svelte-11jqyav">Estado del anuncio <span>*</span></p> <select name="estado" class="box" required><option value="" selected disabled data-svelte-h="svelte-1jda56f">-- estado del anuncio</option><option value="Activado" data-svelte-h="svelte-18zyo56">Activado</option><option value="Desactivado" data-svelte-h="svelte-15pvqww">Desactivado</option></select> <p data-svelte-h="svelte-1od3yry">Título del anuncio <span>*</span></p> <input type="text" name="título" maxlength="100" required placeholder="Escribe aquí el título" class="box"> <p data-svelte-h="svelte-70jorq">Descripción del anuncio <span>*</span></p> <textarea name="descripción" class="box" required placeholder="Descripción clara de tu anuncio" maxlength="1000" cols="30" rows="10"></textarea> <p data-svelte-h="svelte-mzyk5">Selecciona una Lista de Promociones <span>*</span></p> <select name="playlist" class="box" required><option value="" disabled selected data-svelte-h="svelte-kfvh7q">--selecciona una lista</option> <option value="" disabled data-svelte-h="svelte-r9s3kr">Aún no se han creado Listas de Promociones!</option></select> <p data-svelte-h="svelte-qgxevo">¿Qué tipo de anuncio es? <span>*</span></p> <select name="tipo" class="box" id="tipo" required><option value="" selected disabled data-svelte-h="svelte-17iwxnk">-- seleciona tipo de anuncio</option><option value="Descuento" data-svelte-h="svelte-1i0xdni">Descuento</option><option value="Presentacion" data-svelte-h="svelte-106y8by">Presentación</option></select> <p data-svelte-h="svelte-7agp8u">¿Qué cantidad de descuento quieres dar? <span>*</span></p> <select name="porcentaje" class="box" id="discounts" required><option value="" selected disabled data-svelte-h="svelte-oqb8x2">-- seleciona cantidad o si no aplica</option><option value="No-Aplica" data-svelte-h="svelte-2vng0n">No Aplica</option></select> <p data-svelte-h="svelte-1pmu4v7">Miniatura de tu anuncio (hasta 4MB) <span>*</span></p> <input type="file" name="miniatura_archivo" accept="image/*" required class="box"> <p data-svelte-h="svelte-npzpfh">Imagen principal del anuncio (hasta 4MB) <span>*</span></p> <input type="file" name="promo_archivo" accept="image/*" required class="box"> <input type="submit" value="Subir anuncio" name="submit" class="btn"></form></section></section></div> 
+			
+			<script>
+				{
+					__sveltekit_1l9wtdl = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.922ad60f.js"),
+						import("../_app/immutable/entry/app.f40da0b2.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+		<!-- <script
+			async
+			defer
+			crossorigin="anonymous"
+			src="https://connect.facebook.net/en_US/sdk.js"
+		></script> -->
+
+		<link rel="stylesheet" href="../styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
+	</body>
+</html>
