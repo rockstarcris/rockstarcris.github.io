@@ -1,0 +1,1 @@
+import{d as y,q as _,j as b,w as l,v as h,o as q,h as w}from"./state.9cc63495.js";const T=(c,t,e,o,r)=>new Promise((i,a)=>{const d=y.subscribe(async n=>{if(n){setTimeout(()=>{d()},0);try{if(e){const s=_(b(n,c),l(t==="doc_id"?h():t,"==",e),...o?[q(o,r?"desc":void 0)]:[]),u=(await w(s)).docs.map(m=>m.data());i(u)}else a("The valor is empty.")}catch(s){a(s)}}})});export{T as q};
