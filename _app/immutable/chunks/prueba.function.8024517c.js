@@ -1,1 +1,0 @@
-import"./index.9bb3785f.js";import"./index.esm.56b6a403.js";import{t as r}from"./state.68d0945b.js";import{I as a}from"./icon.component.f45d3bd8.js";const n=async o=>{try{await o()}catch(t){r(t,{icon:a})}};export{n as p};
