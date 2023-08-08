@@ -1,0 +1,1 @@
+import{d as n,n as d,m as i}from"./index.esm.43a66c50.js";import{d as m,m as b}from"./mantener-con-vida.function.d1351c2b.js";const f=(r,s)=>new Promise((a,o)=>{const t=n.subscribe(async e=>{if(e){try{m(async()=>{await b()},1e4),await d(i(e,r,s)),a()}catch(c){o(c)}t()}})});export{f as d};
